@@ -20,18 +20,42 @@ All of the code is organized into folders. Each folder starts with a number foll
 
 The code will look like the following:
 ```
-import tensorflow as tf
 import numpy as np
+a = np.array([2.1, 2.5, 4.0, 3.6])
+b = np.array([8, 12, 14, 10])
+np.cov(a, b)
 
-raw_data = np.random.normal(10, 1, 100)
+cv = np.cov(a, b)[0][1]
+print(cv)
 
-alpha = tf.constant(0.05)
-curr_value = tf.placeholder(tf.float32)
-prev_avg = tf.Variable(0.)
-update_avg = alpha * curr_value + (1 - alpha) * prev_avg
 ```
 
-
+All the examples have been implemented in Python 2 and 3 with TensorFlow 1.2.0+.
+You will also need some additional software and tools. To be more specifi, the
+following tools and libraries are required, preferably the latest version:
+• Python (2.7.x or 3.3+)
+• TensorFlow (1.0.0+)
+• Bazel (latest version)
+• pip/pip3 (latest version for Python 2 and 3 respectively)
+• matplotlib (latest version)
+• pandas (latest version)
+• NumPy (latest version)
+• SciPy (latest version)
+• sklearn (latest version)
+• yahoo_fiance (latest version)
+• Bazel(latest version)
+• CUDA (latest version)
+• CuDNN (latest version)
+Linux distributions are preferable (including Debian, Ubuntu, Fedora, RHEL, and
+CentOS) and to be more specifi, for Ubuntu it is recommended to have the 14.04
+(LTS) 64-bit (or later) complete installation or VMWare player 12 or VirtualBox. You
+can also run TensorFlow jobs on Windows (XP/7/8/10) or Mac OS X (10.4.7+).
+Processor Core i5 or Core i7 with GPU support is recommended to get the best
+results. However, multicore processing would provide faster data processing and
+scalability of the predictive analytics jobs—at least 8 GB RAM (recommended) for a
+standalone mode and at least 32 GB RAM for a single VM and higher for a cluster.
+There is enough storage for running heavy jobs (depending on the dataset size you
+will be handling), preferably at least 50 GB of free disk storage.
 
 ## Related Products
 * [Machine Learning with TensorFlow](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-tensorflow?utm_source=github&utm_medium=repository&utm_campaign=9781786462961)
