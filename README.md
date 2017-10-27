@@ -32,30 +32,30 @@ All the examples have been implemented in Python 2 and 3 with TensorFlow 1.2.0+.
 You will also need some additional software and tools. To be more specifi, the
 following tools and libraries are required, preferably the latest version:
 
-⋅⋅* Python (2.7.x or 3.3+)
-⋅⋅⋅* TensorFlow (1.0.0+)
-⋅⋅* Bazel (latest version)
-⋅⋅* pip/pip3 (latest version for Python 2 and 3 respectively)
-⋅⋅* matplotlib (latest version)
-⋅⋅* pandas (latest version)
-⋅⋅* NumPy (latest version)
-⋅⋅* SciPy (latest version)
-⋅⋅* sklearn (latest version)
-⋅⋅* yahoo_fiance (latest version)
-⋅⋅* Bazel(latest version)
-⋅⋅* CUDA (latest version)
-⋅⋅* CuDNN (latest version)
+* Python (2.7.x or 3.3+)
+* TensorFlow (1.0.0+)
+* Bazel (latest version)
+* pip/pip3 (latest version for Python 2 and 3 respectively)
+* matplotlib (latest version)
+* pandas (latest version)
+* NumPy (latest version)
+* SciPy (latest version)
+* sklearn (latest version)
+* yahoo_fiance (latest version)
+* Bazel(latest version)
+* CUDA (latest version)
+* CuDNN (latest version)
 
 ## OS and hardware requirements: 
-⋅⋅* Linux distributions are preferable (including Debian, Ubuntu, Fedora, RHEL, and
+* Linux distributions are preferable (including Debian, Ubuntu, Fedora, RHEL, and
 CentOS) and to be more specifi, for Ubuntu it is recommended to have the 14.04
-⋅⋅* (LTS) 64-bit (or later) complete installation or VMWare player 12 or VirtualBox. 
+* (LTS) 64-bit (or later) complete installation or VMWare player 12 or VirtualBox. 
 You can also run TensorFlow jobs on Windows (XP/7/8/10) or Mac OS X (10.4.7+).
-⋅⋅* Processor Core i5 or Core i7 with GPU support is recommended to get the best
+* Processor Core i5 or Core i7 with GPU support is recommended to get the best
 results. However, multicore processing would provide faster data processing and
 scalability of the predictive analytics jobs—at least 8 GB RAM (recommended) for a
 standalone mode and at least 32 GB RAM for a single VM and higher for a cluster.
-⋅⋅* There is enough storage for running heavy jobs (depending on the dataset size you
+* There is enough storage for running heavy jobs (depending on the dataset size you
 will be handling), preferably at least 50 GB of free disk storage.
 
 ## Related Products
