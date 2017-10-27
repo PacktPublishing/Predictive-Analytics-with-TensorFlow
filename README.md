@@ -13,21 +13,32 @@ The third section covers practical mastery of deep learning architectures for ad
 So in total, this book will help you control the power of deep learning in diverse fields, providing best practices and tips from the real world use cases and helps you in decision making based on predictive analytics.
 
 ## Instructions and Navigation
-All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
+All of the code is organized into folders. Each folder starts with a number followed by the application name -e.g. Chapter02.
+A sample code block in the book looks like the following:
 
-
-The code will look like the following:
 ```
+# Import necessary packages and modules 
+import pandas as pd
 import numpy as np
-a = np.array([2.1, 2.5, 4.0, 3.6])
-b = np.array([8, 12, 14, 10])
-np.cov(a, b)
+import tensorflow as tf
+import os
+from datetime import datetime 
+from sklearn.metrics import roc_auc_score as auc 
+import seaborn as sns
+import matplotlib.pyplot as plt
+import matplotlib.gridspec as gridspec
+from tensorflow.python.framework import ops
 
-cv = np.cov(a, b)[0][1]
-print(cv)
+# Initializing the variables
+init_op = tf.global_variables_initializer()
 
+# Instantiate the TensorFlow session and execute the computational graph
+with tf.Session() as sess:
+    now = datetime.now()
+    sess.run(init)
+    total_batch = int(train_x.shape[0]/batch_size)
 ```
-## Software requirements
+## Software Requirements
 All the examples have been implemented in Python 2 and 3 with TensorFlow 1.2.0+.
 You will also need some additional software and tools. To be more specifi, the
 following tools and libraries are required, preferably the latest version:
@@ -46,7 +57,7 @@ following tools and libraries are required, preferably the latest version:
 * CUDA (latest version)
 * CuDNN (latest version)
 
-## OS and hardware requirements: 
+## OS and Hardware Requirements: 
 * Linux distributions are preferable (including Debian, Ubuntu, Fedora, RHEL, and
 CentOS) and to be more specifi, for Ubuntu it is recommended to have the 14.04
 * (LTS) 64-bit (or later) complete installation or VMWare player 12 or VirtualBox. 
