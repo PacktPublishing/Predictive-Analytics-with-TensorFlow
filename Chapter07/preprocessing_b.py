@@ -3,7 +3,7 @@ import numpy as np
 from sklearn import preprocessing
 
 # Load data
-data = pd.read_csv('input/bank-additional-full.csv', sep = ",")
+data = pd.read_csv('input/bank-additional-full.csv', sep = ";")
 # Variables names
 var_names = data.columns.tolist()
 
