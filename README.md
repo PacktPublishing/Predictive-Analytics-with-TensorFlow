@@ -75,3 +75,7 @@ will be handling), preferably at least 50 GB of free disk storage.
 * [Hands-On Deep Learning with TensorFlow](https://www.packtpub.com/big-data-and-business-intelligence/hands-deep-learning-tensorflow?utm_source=github&utm_medium=repository&utm_campaign=9781787282773)
 
 * [Deep Learning with TensorFlow](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-tensorflow?utm_source=github&utm_medium=repository&utm_campaign=9781786469786)
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781788398923">https://packt.link/free-ebook/9781788398923 </a> </p>
